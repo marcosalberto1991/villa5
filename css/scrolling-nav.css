@@ -1,0 +1,170 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+.nav>li>a {
+
+    position: relative;
+    display: block;
+    background-color#865aef;
+    margin-right:20px;
+    margin-bottom:5px;
+
+}
+.nav>li>a>img{
+
+
+        margin-top: -150px;
+
+}
+.navbar-default .navbar-brand{
+    color:#ddd;
+    font-size: 23px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#ddd;
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        background-color: transparent;
+        color:#555; 
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color:#555; 
+        transition: padding .3s;
+        border: none;
+        color:#fff;
+        font-size:7;
+    }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+header {
+    background-image: url(../img/paisaje.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
+    -webkit-filter: opacity(1.0);
+    
+    
+}
+
+@media (min-width: 768px)
+agency.min.css:5
+header .intro-text .intro-lead-in {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+.btn-xl {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.logo{
+    margin-bottom: -30px;
+}
+.sutmiindex{
+    margin-bottom: 15px;   
+}
+.contaternos{
+    margin-bottom: 25px;   
+}
+
+.dropdown-menu{
+    background-color:#555;
+    
+}
+.color-blanco{
+ color: :#fff;   
+}
+
+
+@media(min-width:767px) {
+    .navbar {
+       
+        color:#fff; 
+       
+}
+.paginacion{
+    color:#555;
+    font-size: 16px;
+    line-height: 20px;
+    line-height: 20px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    padding-top: 25px;
+    text-align: center;
+}
+.abouttex{
+    margin-top: -150px
+
+
+}
+
+
+
+
