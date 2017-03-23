@@ -158,7 +158,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12  abouttex">
-                    <h1>Servicios comunitarios sobre el uso de las tecnologias</h1>
+                    <p class="tamaño" >VillAlexred es una red digital comunitaria comprometida con la apropiacion de las Tic como medio de desarrollo academico,economico,cultural y social; y el uso de energia renovable para su funcionamiento.</p>
                 </div>
                 
                 <div class="col-sm-6 col-md-4 ">
@@ -177,7 +177,7 @@
                         <img src="img/indeximg2.jpg" alt="...">
                         <div class="caption">
                         <h3>Redes Libres</h3>
-                        <p>la creacion de redes libres sobre una comunidad y los beneficios que obtiener</p>
+                        <p>la apropiacion de redes libres en la comunidad y los beneficios que obtiene</p>
                         <p><a href="#" class="btn btn-primary" role="button">Leer</a> </p>
                         </div>
                     </div>
@@ -245,30 +245,35 @@
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-12 abouttex" >
                     <h1>contáctenos</h1>
                 </div>
+                <form name="frmContacto" method="post" action="sendbymail.php">
                     <div class="input-group input-group-lg contaternos">
                         <span class="input-group-addon" id="sizing-addon1">Nombre</span>
-                        <input type="text" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon1">
+                        <input type="text" name="first_name" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon1">
+                    </div>
+                    <div class="input-group input-group-lg contaternos">
+                        <span class="input-group-addon" id="sizing-addon1">Apellido</span>
+                        <input type="text" name="last_name" class="form-control" placeholder="Apellido" aria-describedby="sizing-addon1">
                     </div>
 
                     <div class="input-group input-group-lg contaternos">
                         <span class="input-group-addon" id="sizing-addon1">Email</span>
-                        <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon1">
+                        <input type="text" name="email" class="form-control" placeholder="Email" aria-describedby="sizing-addon1">
                     </div>
 
                     <div class="input-group input-group-lg contaternos">
                         <span class="input-group-addon" id="sizing-addon1">Telefonos</span>
-                        <input type="text" class="form-control" placeholder="Telefonos" aria-describedby="sizing-addon1">
+                        <input type="text" name="telephone" class="form-control" placeholder="Telefonos" aria-describedby="sizing-addon1">
                     </div>
                     <div class="input-group input-group-lg contaternos">
                         <span class="input-group-addon" id="sizing-addon1">Mensajes</span>
-                        <input type="text" class="form-control" placeholder="Mensajes" aria-describedby="sizing-addon1">
+                        <input type="text" name="comments" class="form-control" placeholder="Mensajes" aria-describedby="sizing-addon1">
                     </div>
 
-                    <a href="#services" class="page-scroll btn btn-xl">Enviar</a>
-            </div>
+                    <input   type="submit" value="Enviar" class="page-scroll btn btn-xl">Enviar>
+            </div></form>
         </div>
     </section>
 
@@ -277,7 +282,7 @@
             <div class="row">
                 <div class="col-lg-12 paginacion">
 
-                Copyright © VillalexRed,2017
+                Copyright © VillAlexred,2017
                 <br>
                 Desarrollado por
                 <br>
