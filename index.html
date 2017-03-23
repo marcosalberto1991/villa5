@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>VillalexRed </title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <link href="css/agency.min.css" rel="stylesheet">
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        
+        <div class="container">
+
+            <div class="navbar-header page-scroll">
+        
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    
+                VillalexRed
+
+                </a>
+
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top">
+                                                   
+
+                        </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Quienes Somos</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contáctenos</a>
+                    </li>
+                    <li>
+
+                    </li>
+                    <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <form class="navbar-form navbar-left" role="search">
+                                  <div class="form-group">
+                                    <li class="sutmiindex" >
+                                    <h5 class="color-blanco">correo</h5>
+                                        <input type="text" class="form-control" placeholder="Correo">
+                                    </li>
+
+                                    <li  class="sutmiindex2" >
+                                    <h5>Contraseña</h5>
+                                        <input type="text" class="form-control" placeholder="contraseña">
+                                    </li>
+
+                                  </div>
+                                  <li role="separator" class="divider"></li>
+                                  <li  class="sutmiindex" >
+                                  <h3><button type="submit" class="label label-default" >Inicia Sesión</button>
+                                    </h3>
+                                    </li>
+                                    <li>
+                                    <h3><button type="submit" class="label label-default" >Crear una cuenta</button>
+                                    </h3>
+                                        
+                                    </li>
+
+
+
+                                </form>
+                                
+                                   
+                          </ul>
+                        </li>
+                </ul>
+                <div class="logo">
+                <img align="right" class="logo" width="160" height="60" src="img/logovillaalexandre.png">
+                    
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+   
+
+
+
+
+<!--
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Scrolling Nav</h1>
+                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
+                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <header>
+        <div class="container" id="intro" class="intro-section ">
+            <div class="intro-text">
+                <div class="intro-lead-in">Bienvenido a</div>
+                <div class="intro-heading">Villa Alexred</div>
+                <a href="#services" class="page-scroll btn btn-xl">Leer Mas Sobre Nosotros</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12  abouttex">
+                    <h1>Servicios comunitarios sobre el uso de las tecnologias</h1>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 ">
+                    <div class="thumbnail">
+                        <img src="img/indeximg1.jpg" alt="...">
+                        <div class="caption">
+                        <h3>Asesoramos</h3>
+                        <p>Asesoramos el uso de de la tecnologia y aplicaciones</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Leer</a> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/indeximg2.jpg" alt="...">
+                        <div class="caption">
+                        <h3>Redes Libres</h3>
+                        <p>la creacion de redes libres sobre una comunidad y los beneficios que obtiener</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Leer</a> </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/indeximg3.jpg" alt="...">
+                        <div class="caption">
+                        <h3>El uso en una redes  </h3>
+                        <p>ayudar el formentos de la informacion y la crearcion de servicios </p>
+                        <p><a href="#" class="btn btn-primary" role="button">Leer</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="col-lg-4">
+                    <h5>Servicio virtual de biblioteca para la comunidad   </h5>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Servicio comunitarios de consultorias medicas  </h5>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 abouttex">
+                    <h1>Nuestros Servicios</h1>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/medica.png" alt="...">
+                        <div class="caption">
+                        <h3>Agenda Medica</h3>
+                        <p>...</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/clasifica.png" alt="...">
+                        <div class="caption">
+                        <h3>Clasificados</h3>
+                        <p>...</p>
+                        <p><a href="#" class="btn btn-primary" role="button">Button</a> </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>contáctenos</h1>
+                </div>
+                    <div class="input-group input-group-lg contaternos">
+                        <span class="input-group-addon" id="sizing-addon1">Nombre</span>
+                        <input type="text" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon1">
+                    </div>
+
+                    <div class="input-group input-group-lg contaternos">
+                        <span class="input-group-addon" id="sizing-addon1">Email</span>
+                        <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon1">
+                    </div>
+
+                    <div class="input-group input-group-lg contaternos">
+                        <span class="input-group-addon" id="sizing-addon1">Telefonos</span>
+                        <input type="text" class="form-control" placeholder="Telefonos" aria-describedby="sizing-addon1">
+                    </div>
+                    <div class="input-group input-group-lg contaternos">
+                        <span class="input-group-addon" id="sizing-addon1">Mensajes</span>
+                        <input type="text" class="form-control" placeholder="Mensajes" aria-describedby="sizing-addon1">
+                    </div>
+
+                    <a href="#services" class="page-scroll btn btn-xl">Enviar</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="container">
+            <div class="row">
+                <div class="col-lg-12 paginacion">
+
+                Copyright © VillalexRed,2017
+                <br>
+                Desarrollado por
+                <br>
+                Marcos Alberto Saavedra
+                <br>
+                lizeth Nayibe Martinez Sanchez
+                </div>
+            </div>    
+
+    </div>
+            
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
